@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color:white;
+    background-color: black;
+    font-size: .75in;
+    font-family: fantasy;
+    
+
+
+}
+
+h2 {
+    background-color: blueviolet;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-size: .5in;
+}
+
+
+h3 {
+    background-color: deepskyblue;
+    text-decoration: underline;
+    color: black;
+    text-align: right;
+}
+

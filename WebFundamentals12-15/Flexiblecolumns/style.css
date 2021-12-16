@@ -1,0 +1,29 @@
+.con{
+    height: 600px;
+    width: 2000px;
+    background-color: rgb(238, 151, 101);
+}
+
+.row{
+    display: flex;
+}
+.col{
+flex: 1;
+padding: 10px;
+margin: 10px;
+background-color: mediumturquoise;
+}
+
+.col-2{
+    flex: 2;
+    padding: 10px;
+    margin: 10px;
+    background-color: mediumturquoise;
+}
+
+.col-3{
+    flex: 3;
+    padding: 10px;
+    margin: 10px;
+    background-color: mediumturquoise;
+}

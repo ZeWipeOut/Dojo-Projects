@@ -1,0 +1,63 @@
+.nav{
+display:flex;
+background-color: rgba(37, 37, 46, 0.849);
+width: 100%;
+height: 50px;
+color: snow;
+}
+
+.nav-title{
+font-family:'Roboto' , sans-serif;
+font-size: 20px;
+margin-top: 1px;
+padding-left: 5px;
+color: rgb(255, 255, 255);
+align-items: center;
+display:flex;
+justify-content: flex-start;
+height: 100%;
+width: 100%;
+
+}
+.nav-links{
+    font-family:'Roboto' , sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+    display: flex;
+    width: 40%;
+height: 50%;
+align-items: center;
+justify-content:space-evenly;
+}
+
+ul{
+list-style-type: none;
+}
+
+.nav-links a{
+text-decoration: none;
+color:snow;
+}
+
+.home{
+color: snow;
+}
+
+.connections{
+color: snow;
+}
+
+.active{
+    color: snow;
+    text-emphasis: bold;
+}
+
+
+.btn{
+    font-family:'Roboto' , sans-serif;
+    width: 100px;
+    height: 20px;
+background-color: steelblue;
+color: rgb(255, 255, 255);
+box-shadow: 5px 3px 3px black;
+}

@@ -1,6 +1,6 @@
-function hidebutton(x) 
+function hidebutton(element) 
     {
-        x.style.display = 'none';
+        element.remove(Ad)
     }
 
 function log(element)

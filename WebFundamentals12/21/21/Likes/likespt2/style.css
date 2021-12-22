@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.bigboss{
+    width: 1000px;
+    height: 500px;
+    margin-left: 20%;
+}
+
+.bigboss >h1{
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar >h1{
+    padding-left: 40px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.profile > *{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+}
+
+
+
+.profile{
+    border: black solid 4px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.mainl{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.mainr{
+    flex: 4;
+    background-color: white;
+
+}
+
+.friend{
+    border: solid black 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+.likeb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.ftitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ftitle >h1{
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fbody{
+    font-family: monospace;
+    padding: 10px;
+}
+
+.button1{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin: 15px;
+    border: solid black 3px;
+    background-color: rgb(255, 188, 62);
+    box-shadow: black 5px 3px 3px;
+    width: 40%; 
+}
+
+.count1{
+    display: flex;
+    justify-content: space-between;
+}
